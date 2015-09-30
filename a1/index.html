@@ -8,53 +8,87 @@ Customer Service -->
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+
     <title></title>
   </head>
   <body>
 
-    <h1>My Journey</h1>
+    <div class="navbar">
+      <div class="dropdown">☰
+        <a href="#"><li class="first-item layer-1">Profile Page</li></a>
+        <a href="http://github.com/cyspath" target="_blank"><li class="layer-1">Github Page</li></a>
+        <a href="http://cyspath.github.io" target="_blank"><li class="layer-1">Portfolio</li></a>
+        <a href="http://google.com" target="_blank"><li class="layer-1">Google</li></a>
 
-    <a href="#">
-      <div class="node">
-        <h4>Home</h4>
-      </div>
-    </a>
+        <div class="inner-dropdown layer-1">Projects
+          <a href="www.huddleup.site"><li class="first-item layer-2">Huddle Up</li></a>
+          <a href="http://cyspath.github.io/thunderbird"><li class="layer-2">Thunderbird</li></a>
+          <a href="www.github.com/cyspath/ruby_chess"><li class="layer-2">Ruby Chess</li></a>
+        </div>
 
-    <a href="#">
-      <div class="node">
-        <h4>Bakersfield</h4>
+        <a href="#"><li class="layer-1">Log Out</li></a>
       </div>
-    </a>
+    </div>
 
-    <a href="#">
-      <div class="node">
-        <h4>Los Altos</h4>
-      </div>
-    </a>
+    <div class="test">
+      TEST
+    </div>
 
-    <a href="#">
-      <div class="node">
-        <h4>UC Berkeley</h4>
-      </div>
-    </a>
+    <div class="content">
+      <h1>My Journey</h1>
 
-    <a href="#">
-      <div class="node">
-        <h4>Elim Biopharm</h4>
-      </div>
-    </a>
+      <a href="#">
+        <div class="node">
+          <h4>Home</h4>
+        </div>
+      </a>
 
-    <a href="#">
-      <div class="node">
-        <h4>StemCells Inc</h4>
-      </div>
-    </a>
+      <a href="#">
+        <div class="node">
+          <h4>Bakersfield</h4>
+        </div>
+      </a>
 
-    <a href="#">
-      <div class="node">
-        <h4>App Academy</h4>
-      </div>
-    </a>
+      <a href="#">
+        <div class="node">
+          <h4>Los Altos</h4>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="node">
+          <h4>UC Berkeley</h4>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="node">
+          <h4>Elim Biopharm</h4>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="node">
+          <h4>StemCells Inc</h4>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="node">
+          <h4>App Academy</h4>
+        </div>
+      </a>
+    </div>
+
+    <script type="text/javascript">
+      for (var i = 0; i < 100; i++) {
+        document.body.appendChild(document.createTextNode("scroll"))
+        document.body.appendChild(document.createElement("br"))
+
+      }
+    </script>
+
 
 
   </body>
